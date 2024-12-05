@@ -69,21 +69,22 @@ a {
     padding: 10px 0;
 }
 
-/* Section-Box Styles */
 .section-box {
-    position: relative;
-    text-align: center;
-    background: rgb(225, 211, 196);
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    margin: 20px 985px;
     max-width: 400px;
-    width: 100%;
-    margin: 20px 835px;
 }
 
 .section-box-smaller {
+    margin: -350px 115px;
+    max-width: 300px;
+}
+
+.section-box-smallest {
+    margin: 45px 550px;
+    max-width: 250px;
+}
+
+.section-box, .section-box-smaller, .section-box-smallest {
     position: relative;
     text-align: center;
     background: rgb(225, 211, 196);
@@ -91,34 +92,31 @@ a {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    max-width: 300px;
     width: 100%;
-    margin: -350px 135px;
 }
 
-.section-box img {
+.section-box img, .section-box-smaller img, .section-box-smallest img {
     width: 100%;
     border-radius: 8px;
 }
 
-.section-box .above-image-text {
+.section-box .above-image-text, .section-box-smaller .above-image-text, .section-box-smallest .above-image-text {
     padding: 10px;
     font-size: 1.5em;
     font-weight: bold;
 }
 
-.section-box .text-below {
+.section-box .text-below, .section-box-smaller .text-below, .section-box-smallest .text-below {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.section-box .text-below div {
+.section-box .text-below div, .section-box-smaller .text-below div, .section-box-smallest .text-below div {
     flex: 1;
     margin: 0 5px;
     padding: 10px;
-    background: rgb(225, 211, 196);;
+    background: rgb(225, 211, 196);
     border: 1px solid black;
     border-radius: 4px;
 }
-
