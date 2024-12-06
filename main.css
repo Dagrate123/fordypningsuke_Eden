@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(246, 196, 190);
+    color: #333;
 }
 
 a {
@@ -120,4 +121,68 @@ a {
     background: rgb(225, 211, 196);
     border: 1px solid black;
     border-radius: 4px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+}
+
+.ticket-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket-section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.ticket h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #444;
+}
+
+.ticket p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.buy-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
 }
