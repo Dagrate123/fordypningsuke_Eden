@@ -1,4 +1,7 @@
-/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -42,6 +45,7 @@ a {
     flex-direction: column;
     gap: 1rem;
     padding-top: 1rem;
+    z-index: 1;
 }
 
 .button2 {
@@ -70,17 +74,14 @@ a {
 }
 
 .section-box {
-    margin: 20px 985px;
     max-width: 400px;
 }
 
 .section-box-smaller {
-    margin: -350px 115px;
     max-width: 300px;
 }
 
 .section-box-smallest {
-    margin: 45px 550px;
     max-width: 250px;
 }
 
