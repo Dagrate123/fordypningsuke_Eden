@@ -15,11 +15,21 @@ a {
     color: white;
 }
 
+.text-in-box {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Navbar Styles */
 .navbar {
     display: flex;
     background-color: rgb(158, 178, 144);
     height: 118px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .button {
@@ -49,6 +59,19 @@ a {
     z-index: 1;
 }
 
+.side-2 {
+    position: fixed;
+    right: 0;
+    width: 15rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 5px;
+    z-index: 1;
+}
+
+
 .button2 {
     background-color: rgb(6, 59, 65);
     padding: 15px;
@@ -58,7 +81,7 @@ a {
 }
 
 .button2:hover {
-    background-color: #f8a145;
+    background-color: rgb(6, 199, 65);
     transition: 0.5s;
 }
 
@@ -85,6 +108,18 @@ a {
 .section-box-smallest {
     max-width: 250px;
 }
+
+.baerekraft-container {
+    max-width: 600px; 
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(225, 211, 196);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+}
+
 
 .section-box, .section-box-smaller, .section-box-smallest {
     position: relative;
@@ -123,11 +158,25 @@ a {
     border-radius: 4px;
 }
 
-.header {
-    text-align: center;
+.baerekraft-container {
+    max-width: 600px;      
+    margin: 50px ;
     padding: 20px;
-    background-color: #282c34;
-    color: white;
+    background-color: rgb(225, 211, 196);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.baerekraft-container a {
+    color: rgb(6, 99, 65);;
+}
+
+.baerekraft-container a:hover {
+    color: rgb(6, 199, 65);;
 }
 
 .ticket-container {
