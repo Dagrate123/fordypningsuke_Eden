@@ -372,4 +372,11 @@ a {
     .ticket-section {
         width: 90%;
     }
+
+    /* Individual section styles */
+    #section1, #section2, #section3, #section4, #section5,
+    #section6, #section7, #section8, #section9, #section10,
+    #section11, #section12, #section13, #section14, #section15, #section16 {
+        margin: 0; 
+}
 }
