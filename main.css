@@ -313,8 +313,8 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center; /* Center align items horizontally */
-        gap: 200px; /* Add consistent spacing between items */
-        margin: 100px 0; /* Remove any extra margins */
+        gap: 20px; /* Add consistent spacing between items */
+        margin: 300px 0; /* Remove any extra margins */
         padding: 10px; /* Optional padding for the container */
     }
 
