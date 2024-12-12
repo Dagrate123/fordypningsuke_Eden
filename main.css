@@ -299,6 +299,7 @@ a {
     }
 
     .navbar {
+        display: flex;
         flex-direction: column;
         gap: 1rem;
         height: auto;
@@ -309,8 +310,8 @@ a {
     }
 
     .section-box, .section-box-smaller, .section-box-smallest {
-        max-width: 40%;
-        margin: 0 auto;
+        max-width: 90%;
+        margin: none;
     }
 
     .baerekraft-container {
