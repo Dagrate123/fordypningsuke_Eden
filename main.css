@@ -320,7 +320,7 @@ a {
 
     .section-box, .section-box-smaller, .section-box-smallest {
         max-width: 90%;
-        margin: none;
+        margin: 0;
     }
 
     .baerekraft-container {
