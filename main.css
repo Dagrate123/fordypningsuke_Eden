@@ -309,6 +309,15 @@ a {
         display: none;
     }
 
+    .section-box-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center align items horizontally */
+        gap: 20px; /* Add consistent spacing between items */
+        margin: 0; /* Remove any extra margins */
+        padding: 10px; /* Optional padding for the container */
+    }
+
     .section-box, .section-box-smaller, .section-box-smallest {
         max-width: 90%;
         margin: none;
