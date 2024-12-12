@@ -299,7 +299,8 @@ a {
     }
 
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
+        width: 100%;
         gap: 1rem;
         height: auto;
     }
@@ -311,6 +312,11 @@ a {
     .section-box, .section-box-smaller, .section-box-smallest {
         max-width: 90%;
         margin: 0 auto;
+    }
+
+    .section-box-container {
+        display: flex;
+        flex-direction: column;
     }
 
     .baerekraft-container {
