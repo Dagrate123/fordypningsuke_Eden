@@ -314,7 +314,7 @@ a {
         flex-direction: column;
         align-items: center; /* Center align items horizontally */
         gap: 200px; /* Add consistent spacing between items */
-        margin: 0; /* Remove any extra margins */
+        margin: 100px 0; /* Remove any extra margins */
         padding: 10px; /* Optional padding for the container */
     }
 
