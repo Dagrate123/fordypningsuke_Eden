@@ -320,14 +320,10 @@ a {
     .navbar {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         gap: 1rem;
         height: auto;
     }
 
-    .button {
-        max-width: 90%;
-    }
 
     .side, .side-2 {
         display: none;
