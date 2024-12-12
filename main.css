@@ -130,7 +130,7 @@ a {
     transition: 0.5s;
 }
 
-/* Footer Styles */
+
 .footer {
     position: fixed;
     left: 0;
@@ -322,6 +322,10 @@ a {
         flex-direction: column;
         gap: 1rem;
         height: auto;
+    }
+
+    .button {
+        max-width: 90%;
     }
 
     .side, .side-2 {
