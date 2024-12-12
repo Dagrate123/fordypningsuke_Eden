@@ -142,6 +142,25 @@ a {
     padding: 10px 0;
 }
 
+#section1 {
+    margin: 20px 985px;
+}
+#section2 {
+    margin: -350px 115px;
+}
+#section3 {
+    margin: 45px 550px;
+}
+#section4 {
+    margin: -100px 995px;
+}
+#section5 {
+    margin: 0px 200px;
+}
+#section6 {
+    margin: -250px 850px;
+}
+
 .section-box {
     max-width: 400px;
     position: relative;
@@ -314,7 +333,7 @@ a {
         flex-direction: column;
         align-items: center; /* Center align items horizontally */
         gap: 20px; /* Add consistent spacing between items */
-        margin: 300px 0; /* Remove any extra margins */
+        margin: 0; /* Remove any extra margins */
         padding: 10px; /* Optional padding for the container */
     }
 
